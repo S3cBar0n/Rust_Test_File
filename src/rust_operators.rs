@@ -1,19 +1,20 @@
+// ###### THIS IS FOR GOING OVER OUR BASIC OPERATORS SUCH AS LOGICAL AND ARITHMETIC ######
 // So that we can access this function in our main file we need to put "pub" in front of the function
 pub fn operators() {
     // Arithmetic
-    let mut a = 2 + 3 * 4; //
+    let mut a = 2 + 3 * 4;  //
     println!("{}", a);
 
     // The following are the allowed quick operations
     // -= += *= /= %=
-    a = a + 1; // ++ and -- quick operations are not supported
-    a -= 2; // is equivalent to a = a - 2;
+    a = a + 1;  // ++ and -- quick operations are not supported
+    a -= 2;  // is equivalent to a = a - 2;
 
-    println!("Remainder of {} / {} = {}", a, 3, (a % 3)); // The last assignment is our math to locate the remainder
+    println!("Remainder of {} / {} = {}", a, 3, (a % 3));  // The last assignment is our math to locate the remainder
 
 
     // There is no exponents operator, instead we use the pow function, sampled below
-    let a_cubed = i32::pow(a, 3); // This is equivalent to (a * a * a)
+    let a_cubed = i32::pow(a, 3);  // This is equivalent to (a * a * a)
     println!("{} cubed is equal to {}", a, a_cubed);
 
 
@@ -28,7 +29,7 @@ pub fn operators() {
 
     // Bitwise operators - only for integers
     // 01 OR 10 == 11 == 3_10
-    let c = 1 | 2; // Equal to 1 or 2, | = OR, & = AND, ^ = XOR, ! = NOT
+    let c = 1 | 2;  // Equal to 1 or 2, | = OR, & = AND, ^ = XOR, ! = NOT
     println!("1 | 2 = {}", c);
 
 
@@ -47,13 +48,3 @@ pub fn operators() {
     let x_is_5 = x == 5;
     println!("Is x equal to 5, {}", x_is_5);
 }
-
-
-
-
-
-
-
-
-
-
