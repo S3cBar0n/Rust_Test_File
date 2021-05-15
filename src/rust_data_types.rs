@@ -103,6 +103,7 @@ pub fn scope_and_shadowing() {
     println!("Outside the scope, a's is equal to {}", a);
 }
 
+
 // This function is for learning about scope of variables and functions.
 // Once a variable has been used in a different function and the program continues to another
 // that variable in the other function is destroyed and unusable.
@@ -113,6 +114,7 @@ pub fn scope_of_variables() {
     // This is commented out so it wont fail at compile time.
     // println!("a is {}", a)
 }
+
 
 pub fn constants() {
     println!("{} is the value of our CONSTANT_VALUE constant", CONSTANT_VALUE);
@@ -128,5 +130,4 @@ pub fn constants() {
         Z_MUTABLE = 555;
         println!("{} is the value of our Z_MUTABLE constant after changing the value", Z_MUTABLE);
     }
-
 }

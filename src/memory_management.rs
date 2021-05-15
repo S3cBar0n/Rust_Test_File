@@ -7,6 +7,7 @@ struct Point {
     y: f64
 }
 
+
 pub fn memory_management() {
     // This statement allocates a chunk of RAM where the value below is stored.
     // Anytime we call the below variable we are reading our RAM to get the value.
@@ -45,6 +46,7 @@ pub fn memory_management() {
 fn origin() -> Point {
     Point{x: 0.0, y:0.0}
 }
+
 
 pub fn stack_and_heap() {
     // This is a demo of Stack vs Heap
